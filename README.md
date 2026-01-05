@@ -78,6 +78,8 @@ Use ETL when:
 - Doing research and experimentation
 - Python is the main processing layer
 
+![employees_processed](Employees_processed.png)
+
 --------------------------------------------------
 
 ELT PIPELINE (Extract – Load – Transform)
@@ -103,6 +105,8 @@ Tables:
 3. employees_analytics
    - Aggregated data
    - Used for BI and reporting
+
+
 
 Characteristics:
 - Database-centric
@@ -140,6 +144,10 @@ The notebook allows inspection of:
 - employees_analytics
 
 All tables can be viewed side-by-side using pandas DataFrames.
+
+![employees_raw](Employees_raw.png)
+![employees_extended](Employees_extended.png)
+![employees_analytics](Employees_analytics.png)
 
 --------------------------------------------------
 
